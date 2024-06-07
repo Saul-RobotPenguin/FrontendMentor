@@ -1,0 +1,100 @@
+.blogimage-icon {
+    align-self: stretch;
+    position: relative;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    height: 200px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.learning {
+    position: relative;
+    line-height: 150%;
+    font-weight: 800;
+}
+.category {
+    border-radius: 4px;
+    background-color: #f4d04e;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 12px;
+}
+.publishdate {
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+}
+.title {
+    
+    align-self: stretch;
+    position: relative;
+    font-size: 24px;
+    line-height: 150%;
+    font-weight: 800;
+}
+
+.title:hover{
+    color: #f4d04e;
+}
+.description {
+    align-self: stretch;
+    position: relative;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 500;
+    color: #7f7f7f;
+}
+.content {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+}
+.userpic-icon {
+    width: 32px;
+    position: relative;
+    border-radius: 50%;
+    height: 32px;
+    object-fit: cover;
+}
+.author {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+}
+.blogimage-parent {
+    position: absolute;
+    top: calc(50% - 261.5px);
+    left: calc(50% - 192px);
+    box-shadow: 8px 8px 0px #000;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 1px solid #111;
+    box-sizing: border-box;
+    width: 384px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 24px;
+    gap: 24px;
+}
+.desktop {
+    width: 100%;
+    position: relative;
+    background-color: #f4d04e;
+    height: 960px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 14px;
+    color: #111;
+    font-family: Figtree;
+}
+
